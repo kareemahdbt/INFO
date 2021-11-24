@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="question.html">
+    <div class="div-main">
+        <h1>Welcome to our Survey page</h1>
+        <h2>Kindly Fill in the necessary Information dowm below</h2>          
+            <div class="div-input">
+                <input type="text" placeholder="Enter First Name"required>
+                <input type="text" placeholder="Enter Last Name"required>
+                <input type="text" placeholder="Enter Phone Number"required>
+                <input type="text" placeholder="Enter Email Address"required>
+                <input type="password" placeholder="Enter Password" required>
+                <input type="gender" placeholder="Enter Gender" required>
+
+            </div>
+            <div class="div-option">
+                <P>Currenty what are you?</P>
+                <label for="situation"> Choose Here</label>
+                <select name="situation" id="dropdown">
+                    <option value="student">Student.</option>
+    <option value="student">Graduate.</option>
+    <option value="student">Highschooler.</option>
+    <option value="student">Working Full-Time job.</option>
+    <option value="student">Working Part-Time job.</option>
+                </select>
+            </div>
+<div class="div-ideas">
+    <p>What career choice do you have in mind?</p>
+   <input type="text" placeholder="....">
+</div>
+    </div>
+    <h4>Kindly check your informations before moving to the Next page</h4> 
+    <div class="button">   
+    <button class="btn"><a href="index.html">Previous Page</a></button>
+     <button class="btn2"><a href="suggestion.html">Next Page</a></button>
+    </div> 
+    </form>
+</body>
+</html>
